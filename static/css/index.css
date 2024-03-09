@@ -1,0 +1,382 @@
+body{margin: 0;padding: 0;box-sizing: border-box;max-width: 100%;font-family: 'Poppins', sans-serif;background-color: #ffffff;}
+h1, h2, h3, h4, h5, h6, ul, ol, li, p{margin: 0;padding: 0;}
+ul, ol{list-style: none;}
+a{text-decoration: none;color: black;}     
+img {max-width: 100%;display: block;}
+.body {
+  background: linear-gradient(180deg, #2F1B43 0%, #251B2F 30.21%, #1B1B1B 53.65%);
+ height: 100vh;
+ padding: 50px;
+
+ /* display: flex; */
+ 
+
+}
+.header {
+  display:flex;
+  justify-content: right;
+  align-items: center;
+}
+.header__inp {
+  background-color: rgba(36, 36, 36, 1);
+  margin-left: auto;
+  margin-right: auto;
+  color: #444;
+  font-size: 22px;
+  width: 400px; 
+  padding: 10px 20px;
+  box-shadow: -22px 9px 0px 1px rgba(0, 0, 0, 0.25); 
+  border-radius: 15px;
+  border-top: 10px solid #1A1919;
+  border-left: 20px solid #1A1919;
+  border-bottom: 10px solid #1A1919;
+  border-right: 20px solid #1A1919;
+}
+.header__link {
+  margin-right: 50px;
+  color: #FFF;
+  text-align: center;
+  text-shadow: 0px 0px 15px #BD00FF;
+  font-family: 'Audiowide', cursive;
+  font-size: 15px;
+
+}
+.panel {
+  width: 200px;
+  height:650px;
+  color: white;
+  border-radius: 15px;
+  background: #1A1919;
+  box-shadow: 0px -34px 236px -129px #EDDEFF;
+  display: flex;
+  flex-direction: column;
+}
+.panel_name {
+  width: 150px;
+  height: 41px;
+  flex-shrink: 0;
+  border-radius: 9px;
+  background: #1D1D1D;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  margin-left: 26px;
+  margin-top: 20px;
+  display: flex;
+}
+.panel_text{
+  color: #FFF;
+  text-align: center;
+  font-family: 'Porter Sans Block';
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-left: 26px;
+  margin-top: auto;
+  margin-bottom: auto;
+  user-select: none;
+}
+.panel_authors {
+  user-select: none;
+}
+.authors__link {
+  color: white;
+  display: flex;
+  align-items: center;
+}
+.authors__img {
+  width: 50px;
+  height: 50px;
+  fill: white;
+  transition: .3s;
+}
+.authors__svg {
+  width: 50px;
+  height: 50px;
+  fill: white;
+}
+
+.authors__link:hover .authors__img {
+  fill: #400E60;
+  stroke: #400E60;
+}
+.panel_beats {
+
+}
+.beats__link {
+  color: white;
+  display: flex;
+
+  align-items: center;
+}
+.beats__img {
+  width: 50px;
+  height: 50px;
+  fill: white;
+  stroke: white;
+}
+.beats__svg {
+  width: 50px;
+  height: 50px;
+}
+.beats__link:hover .beats__img {
+  fill: #00D1FF;
+  stroke: #00D1FF;
+}
+.panel_tracks {
+
+}
+.tracks__link {
+  color: white;
+  display: flex;
+
+  align-items: center;
+
+}
+.tracks__img {
+  width: 50px;
+  height: 50px;
+  fill: white;
+  stroke: white;
+  transition: .3s;
+}
+.tracks__link:hover .tracks__img{
+  fill: #FF5C00;
+  stroke: #FF5C00;
+
+}
+.tracks__svg {
+  width: 50px;
+  height: 50px;
+}
+.beats__link:hover .beats__img {
+  fill: #00D1FF;
+  stroke: #00D1FF;
+}
+.panel__marks {
+
+}
+.marks__link {
+  color: white;
+  display: flex;
+
+  align-items: center;
+}
+.marks__img {
+  width: 50px;
+  height: 50px;
+  fill: white;
+  stroke: white;
+  transition: .3s;
+}
+.marks__svg {
+  width: 50px;
+  height: 50px;
+}
+.marks__link:hover .marks__img {
+  fill: #2D861E;
+  stroke: #2D861E;
+}
+.panel__rating {
+
+}
+.rating__link {
+  color: white;
+  display: flex;
+
+  align-items: center;
+}
+.rating__img {
+  width: 50px;
+  height: 50px;
+  fill: white;
+  stroke: white;
+  transition: .3s;
+}
+.rating__svg {
+  width: 50px;
+  height: 50px;
+}
+.rating__link:hover .rating__img {
+  fill: #FFD600;
+  stroke: #FFD600;
+}
+.panel__albums {
+
+}
+.albums__link {
+  color: white;
+  display: flex;
+
+  align-items: center;
+}
+.albums__img {
+  width: 50px;
+  height: 50px;
+  fill: white;
+  stroke: white;
+  transition: .3s;
+}
+.albums__svg {
+  width: 50px;
+  height: 50px;
+}
+.albums__link:hover .albums__img {
+  fill: #FFBC7E;
+  stroke: #FFBC7E;
+}
+.panel__aboutus {
+
+}
+.aboutus__link {
+  color: white;
+  display: flex;
+  align-items: center;
+}
+.aboutus__img {
+  width: 50px;
+  height: 50px;
+  fill: white;
+  stroke: white;
+  transition: .3s;
+}
+.aboutus__svg {
+  width: 50px;
+  height: 50px;
+}
+.aboutus__link:hover .aboutus__img {
+  fill: #3352F4;
+  stroke: #3352F4;
+}
+.panel__kys {
+
+}
+.kys__link {
+  color: white;
+  display: flex;
+
+  align-items: center;
+}
+.kys__img {
+  width: 50px;
+  height: 50px;
+  fill: white;
+  stroke: white;
+  transition: .3s;
+}
+.kys__svg {
+  width: 50px;
+  height: 50px;
+}
+.kys__link:hover .kys__img {
+  fill: #FF0000;
+  stroke: #FF0000;
+}
+.panel__buttons {
+  margin-top: 10px;
+  margin-left: 20px;
+  user-select: none;
+}
+
+/* .body__element */
+.main {
+  display: flex;
+  width: 100%;
+}
+
+.main__info {
+  width: 100vw;
+}
+.info__lastdrops {
+  max-width: 1440px;
+}
+.lastdrops__title {
+  color: white;
+}
+
+.lastdrops__wrapper--blocks {
+  display: flex;
+/* хром, сафари */
+/* ie 10+ */
+  -ms-overflow-style: none; 
+/* фф (свойство больше не работает, других способов тоже нет)*/
+  overflow: -moz-scrollbars-none; 
+  overflow-x: scroll;
+  max-width: 75%;
+  padding:0 0 30px 0 ;
+
+}
+.lastdrops__wrapper--blocks::-webkit-scrollbar {
+  width: 0px;
+}
+.lastdrops__blocks {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 400px;
+  margin-top: 30px;
+  margin-left: 50px;
+  padding: 30px;
+  box-sizing: border-box;
+  background-color: #212121;
+  border-radius: 30px;
+  box-shadow: -18px 21px 11px -8px rgba(0, 0, 0, 0.25);
+  width: 325px;
+}
+.lastdrops__block__img--wrapper {
+  width: 200px;
+  height: 200px;
+  background-color: #1A1919 ;
+  border-radius: 30px;
+
+}
+.lastdrops__text-block {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  color: white;
+}
+.lastdrops__block__title {
+}
+.lastdrops__block__authors {
+}
+.lastdrops__block__rating {
+}
+
+
+/* .lastdrops__blocks {
+  background-color: #212121;
+  width: 280px;
+  height: 340px;
+  border-radius: 20px;
+  box-shadow: -5px 9px 0px 0px rgba(0, 0, 0, 0.25);
+} */
+.info__top_albums {
+}
+.top_albums__title {
+  color: white;
+  width: 100%;
+}
+.top_albums__wrapper--blocks {
+}
+/* .lastdrops__block__img--wrapper {
+  background-color: #1A1919;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 15px;
+  width: 200px;
+  height: 200px;
+  border-radius: 20px;
+} */
+.lastdrops__block__img {
+  /* justify-content: center;
+  margin-top: 20px;
+  align-items: center; */
+}
+.lastdrops__block__title {
+}
+.lastdrops__block__authors {
+}
+.lastdrops__block__rating {
+}
