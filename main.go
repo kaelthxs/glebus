@@ -31,7 +31,6 @@ func handleFunc() {
 
 	http.HandleFunc("/", index)
 	http.HandleFunc("/create", create)
-	
 	http.ListenAndServe(":8080", nil)
 }
 
