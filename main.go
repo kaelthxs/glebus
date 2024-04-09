@@ -31,7 +31,7 @@ func handleFunc() {
 
 	http.HandleFunc("/", index)
 	http.HandleFunc("/create", create)
-	// http.HandleFunc("/create_release", create_release)
+	
 	http.ListenAndServe(":8080", nil)
 }
 
